@@ -1,0 +1,10 @@
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+
+mixed = []
+
+for i in range(len(list1)):
+    mixed.append(list1[i])
+    mixed.append(list2[i])
+
+print(mixed)
